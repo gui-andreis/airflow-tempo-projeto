@@ -1,0 +1,4 @@
+pasta_gitignore/.env
+.env
+*.pyc
+__pycache__/
