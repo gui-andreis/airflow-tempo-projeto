@@ -23,7 +23,7 @@ services:
     volumes:
       - ../airflow/dags:/opt/airflow/dags
       - ../airflow/logs:/opt/airflow/logs
-      - ../airflow/plugins:/opt/airflow/plugins
+      # - ../airflow/plugins:/opt/airflow/plugins
       - ../data:/opt/airflow/data
       - ../src:/opt/airflow/src
       - ../.env:/opt/airflow/.env
@@ -41,7 +41,7 @@ services:
     volumes:
       - ../airflow/dags:/opt/airflow/dags
       - ../airflow/logs:/opt/airflow/logs
-      - ../airflow/plugins:/opt/airflow/plugins
+      # - ../airflow/plugins:/opt/airflow/plugins
       - ../data:/opt/airflow/data
       - ../src:/opt/airflow/src
       - ../.env:/opt/airflow/.env
