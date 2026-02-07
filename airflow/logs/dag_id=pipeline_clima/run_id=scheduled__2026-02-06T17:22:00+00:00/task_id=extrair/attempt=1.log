@@ -1,0 +1,35 @@
+[2026-02-06T17:23:02.198+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pipeline_clima.extrair scheduled__2026-02-06T17:22:00+00:00 [queued]>
+[2026-02-06T17:23:02.203+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pipeline_clima.extrair scheduled__2026-02-06T17:22:00+00:00 [queued]>
+[2026-02-06T17:23:02.203+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2026-02-06T17:23:02.211+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): extrair> on 2026-02-06 17:22:00+00:00
+[2026-02-06T17:23:02.218+0000] {standard_task_runner.py:60} INFO - Started process 404 to run task
+[2026-02-06T17:23:02.221+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'pipeline_clima', 'extrair', 'scheduled__2026-02-06T17:22:00+00:00', '--job-id', '2', '--raw', '--subdir', 'DAGS_FOLDER/pipeline_clima.py', '--cfg-path', '/tmp/tmpywk6bjjk']
+[2026-02-06T17:23:02.223+0000] {standard_task_runner.py:88} INFO - Job 2: Subtask extrair
+[2026-02-06T17:23:02.272+0000] {task_command.py:423} INFO - Running <TaskInstance: pipeline_clima.extrair scheduled__2026-02-06T17:22:00+00:00 [running]> on host eb7c6511c0dd
+[2026-02-06T17:23:02.338+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='guiandreis' AIRFLOW_CTX_DAG_ID='pipeline_clima' AIRFLOW_CTX_TASK_ID='extrair' AIRFLOW_CTX_EXECUTION_DATE='2026-02-06T17:22:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-02-06T17:22:00+00:00'
+[2026-02-06T17:23:02.339+0000] {logging_mixin.py:188} INFO - 📥 Extraindo dados da API...
+[2026-02-06T17:23:02.985+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/decorators/base.py", line 241, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/pipeline_clima.py", line 31, in extrair
+    df_raw.to_csv(path_raw, index=False)
+  File "/home/airflow/.local/lib/python3.10/site-packages/pandas/core/generic.py", line 3902, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File "/home/airflow/.local/lib/python3.10/site-packages/pandas/io/formats/format.py", line 1152, in to_csv
+    csv_formatter.save()
+  File "/home/airflow/.local/lib/python3.10/site-packages/pandas/io/formats/csvs.py", line 247, in save
+    with get_handle(
+  File "/home/airflow/.local/lib/python3.10/site-packages/pandas/io/common.py", line 863, in get_handle
+    handle = open(
+PermissionError: [Errno 13] Permission denied: '/opt/airflow/data/raw/previsao_tempo_{{ ts_nodash }}.csv'
+[2026-02-06T17:23:02.997+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=pipeline_clima, task_id=extrair, execution_date=20260206T172200, start_date=20260206T172302, end_date=20260206T172302
+[2026-02-06T17:23:03.006+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 2 for task extrair ([Errno 13] Permission denied: '/opt/airflow/data/raw/previsao_tempo_{{ ts_nodash }}.csv'; 404)
+[2026-02-06T17:23:03.036+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2026-02-06T17:23:03.057+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

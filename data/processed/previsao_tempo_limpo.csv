@@ -1,0 +1,9 @@
+name,datetime,tempmax,tempmin,temp,feelslike,precip,humidity,windspeed,temp_media,amplitude_termica,dia_semana
+Caxias do Sul,2026-02-07,21.0,15.5,18.7,18.7,4.2,97.6,9.4,18.25,5.5,Saturday
+Caxias do Sul,2026-02-08,28.0,14.4,19.7,19.7,0.2,81.9,11.2,21.2,13.6,Sunday
+Caxias do Sul,2026-02-09,33.9,15.3,23.1,23.0,0.0,69.9,12.2,24.6,18.599999999999998,Monday
+Caxias do Sul,2026-02-10,34.6,18.4,24.3,24.1,0.1,64.1,9.7,26.5,16.200000000000003,Tuesday
+Caxias do Sul,2026-02-11,37.0,18.5,26.9,26.5,0.0,53.1,9.0,27.75,18.5,Wednesday
+Caxias do Sul,2026-02-12,31.8,19.5,24.8,25.1,0.6,68.5,13.7,25.65,12.3,Thursday
+Caxias do Sul,2026-02-13,35.7,19.2,26.2,26.3,0.7,64.2,10.8,27.450000000000003,16.500000000000004,Friday
+Caxias do Sul,2026-02-14,29.1,19.9,22.4,22.5,21.9,90.4,9.0,24.5,9.200000000000003,Saturday
