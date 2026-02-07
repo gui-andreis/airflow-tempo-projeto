@@ -1,0 +1,553 @@
+[2026-02-07T22:25:30.156+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2026-02-07T22:25:30.156+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2026-02-07T22:25:30.157+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-02-07T22:25:30.157+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-02-07T22:25:30.160+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2026-02-07T22:25:30.303+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/dag_teste.py         169  0.05s             0           0
+/opt/airflow/dags/pipeline_clima.py    172  0.04s             0           0
+================================================================================
+[2026-02-07T22:26:03.920+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_teste.py                                1           0  0.31s           2026-02-07T22:26:02
+/opt/airflow/dags/pipeline_clima.py                           1           0  0.30s           2026-02-07T22:26:02
+================================================================================
+[2026-02-07T22:26:37.606+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_teste.py                                1           0  0.54s           2026-02-07T22:26:32
+/opt/airflow/dags/pipeline_clima.py                           1           0  0.34s           2026-02-07T22:26:32
+================================================================================
+[2026-02-07T22:27:11.060+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_teste.py                                1           0  0.30s           2026-02-07T22:27:03
+/opt/airflow/dags/pipeline_clima.py                           1           0  0.29s           2026-02-07T22:27:03
+================================================================================
+[2026-02-07T22:27:44.511+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_teste.py                                1           0  0.27s           2026-02-07T22:27:33
+/opt/airflow/dags/pipeline_clima.py                           1           0  0.27s           2026-02-07T22:27:33
+================================================================================
+[2026-02-07T22:28:18.120+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_teste.py                                1           0  0.27s           2026-02-07T22:28:04
+/opt/airflow/dags/pipeline_clima.py                           1           0  0.27s           2026-02-07T22:28:04
+================================================================================
+[2026-02-07T22:28:51.460+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_teste.py                                1           0  0.28s           2026-02-07T22:28:35
+/opt/airflow/dags/pipeline_clima.py                           1           0  0.27s           2026-02-07T22:28:35
+================================================================================
+[2026-02-07T22:29:25.019+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_teste.py                                1           0  2.22s           2026-02-07T22:29:08
+/opt/airflow/dags/pipeline_clima.py                           1           0  2.21s           2026-02-07T22:29:08
+================================================================================
+[2026-02-07T22:29:58.634+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_teste.py                                1           0  2.20s           2026-02-07T22:29:41
+/opt/airflow/dags/pipeline_clima.py                           1           0  2.20s           2026-02-07T22:29:41
+================================================================================
+[2026-02-07T22:30:30.244+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-02-07T22:30:30.246+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2026-02-07T22:30:31.984+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_teste.py                                1           0  0.28s           2026-02-07T22:30:15
+/opt/airflow/dags/pipeline_clima.py                           1           0  0.28s           2026-02-07T22:30:15
+================================================================================
+[2026-02-07T22:31:05.590+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_teste.py                                1           0  0.29s           2026-02-07T22:30:48
+/opt/airflow/dags/pipeline_clima.py                           1           0  0.28s           2026-02-07T22:30:48
+================================================================================
+[2026-02-07T22:31:38.904+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_teste.py                                1           0  0.28s           2026-02-07T22:31:22
+/opt/airflow/dags/pipeline_clima.py                           1           0  0.27s           2026-02-07T22:31:22
+================================================================================
+[2026-02-07T22:32:12.503+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_teste.py                                1           0  2.20s           2026-02-07T22:31:54
+/opt/airflow/dags/pipeline_clima.py                           1           0  2.19s           2026-02-07T22:31:54
+================================================================================
+[2026-02-07T22:32:12.990+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2026-02-07T22:32:42.407+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2026-02-07T22:32:42.408+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2026-02-07T22:32:42.408+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-02-07T22:32:42.408+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-02-07T22:32:42.410+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2026-02-07T22:32:42.510+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/dag_teste.py         169  0.04s             0           0
+/opt/airflow/dags/pipeline_clima.py    172  0.04s             0           0
+================================================================================
+[2026-02-07T22:33:16.136+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_teste.py                                1           0  0.28s           2026-02-07T22:33:14
+/opt/airflow/dags/pipeline_clima.py                           1           0  0.28s           2026-02-07T22:33:14
+================================================================================
+[2026-02-07T22:33:49.447+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_teste.py                                1           0  0.31s           2026-02-07T22:33:44
+/opt/airflow/dags/pipeline_clima.py                           1           0  0.30s           2026-02-07T22:33:44
+================================================================================
+[2026-02-07T22:34:22.780+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_teste.py                                1           0  0.29s           2026-02-07T22:34:15
+/opt/airflow/dags/pipeline_clima.py                           1           0  0.28s           2026-02-07T22:34:15
+================================================================================
+[2026-02-07T22:34:56.367+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_teste.py                                1           0  0.28s           2026-02-07T22:34:45
+/opt/airflow/dags/pipeline_clima.py                           1           0  0.28s           2026-02-07T22:34:45
+================================================================================
+[2026-02-07T22:35:30.020+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_teste.py                                1           0  0.31s           2026-02-07T22:35:15
+/opt/airflow/dags/pipeline_clima.py                           1           0  0.29s           2026-02-07T22:35:15
+================================================================================
+[2026-02-07T22:35:38.065+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2026-02-07T22:35:56.679+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2026-02-07T22:35:56.681+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2026-02-07T22:35:56.682+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-02-07T22:35:56.682+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-02-07T22:35:56.683+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2026-02-07T22:35:56.770+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/dag_teste.py         168  0.04s             0           0
+/opt/airflow/dags/pipeline_clima.py    171  0.03s             0           0
+================================================================================
+[2026-02-07T22:36:30.410+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_teste.py                                1           0  0.31s           2026-02-07T22:36:27
+/opt/airflow/dags/pipeline_clima.py                           1           0  0.30s           2026-02-07T22:36:27
+================================================================================
+[2026-02-07T22:37:03.737+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_teste.py                                1           0  0.28s           2026-02-07T22:36:57
+/opt/airflow/dags/pipeline_clima.py                           1           0  0.27s           2026-02-07T22:36:57
+================================================================================
+[2026-02-07T22:37:37.352+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_teste.py                                1           0  0.27s           2026-02-07T22:37:28
+/opt/airflow/dags/pipeline_clima.py                           1           0  0.27s           2026-02-07T22:37:28
+================================================================================
+[2026-02-07T22:38:10.693+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_teste.py                                1           0  0.27s           2026-02-07T22:38:00
+/opt/airflow/dags/pipeline_clima.py                           1           0  0.27s           2026-02-07T22:38:00
+================================================================================
+[2026-02-07T22:38:44.280+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_teste.py                                1           0  0.28s           2026-02-07T22:38:33
+/opt/airflow/dags/pipeline_clima.py                           1           0  0.28s           2026-02-07T22:38:33
+================================================================================
+[2026-02-07T22:39:17.859+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_teste.py                                1           0  0.27s           2026-02-07T22:39:06
+/opt/airflow/dags/pipeline_clima.py                           1           0  0.26s           2026-02-07T22:39:06
+================================================================================
+[2026-02-07T22:39:51.223+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_teste.py                                1           0  0.27s           2026-02-07T22:39:40
+/opt/airflow/dags/pipeline_clima.py                           1           0  0.26s           2026-02-07T22:39:40
+================================================================================
+[2026-02-07T22:40:24.812+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_teste.py                                1           0  2.21s           2026-02-07T22:40:13
+/opt/airflow/dags/pipeline_clima.py                           1           0  2.20s           2026-02-07T22:40:13
+================================================================================
+[2026-02-07T22:40:57.393+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-02-07T22:40:57.394+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2026-02-07T22:40:58.402+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_teste.py                                1           0  2.23s           2026-02-07T22:40:46
+/opt/airflow/dags/pipeline_clima.py                           1           0  2.22s           2026-02-07T22:40:46
+================================================================================
+[2026-02-07T22:41:31.736+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_teste.py                                1           0  0.28s           2026-02-07T22:41:19
+/opt/airflow/dags/pipeline_clima.py                           1           0  0.28s           2026-02-07T22:41:19
+================================================================================
+[2026-02-07T22:42:05.373+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_teste.py                                1           0  0.28s           2026-02-07T22:41:53
+/opt/airflow/dags/pipeline_clima.py                           1           0  0.27s           2026-02-07T22:41:53
+================================================================================
+[2026-02-07T22:42:39.014+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_teste.py                                1           0  0.30s           2026-02-07T22:42:26
+/opt/airflow/dags/pipeline_clima.py                           1           0  0.29s           2026-02-07T22:42:26
+================================================================================
+[2026-02-07T22:43:12.366+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_teste.py                                1           0  0.28s           2026-02-07T22:42:59
+/opt/airflow/dags/pipeline_clima.py                           1           0  0.27s           2026-02-07T22:42:59
+================================================================================
+[2026-02-07T22:43:45.943+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_teste.py                                1           0  0.30s           2026-02-07T22:43:32
+/opt/airflow/dags/pipeline_clima.py                           1           0  0.30s           2026-02-07T22:43:32
+================================================================================
+[2026-02-07T22:44:19.595+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_teste.py                                1           0  0.31s           2026-02-07T22:44:06
+/opt/airflow/dags/pipeline_clima.py                           1           0  0.29s           2026-02-07T22:44:06
+================================================================================
+[2026-02-07T22:44:52.957+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_teste.py                                1           0  0.29s           2026-02-07T22:44:39
+/opt/airflow/dags/pipeline_clima.py                           1           0  0.28s           2026-02-07T22:44:39
+================================================================================
+[2026-02-07T22:45:26.562+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_teste.py                                1           0  0.28s           2026-02-07T22:45:12
+/opt/airflow/dags/pipeline_clima.py                           1           0  0.27s           2026-02-07T22:45:12
+================================================================================
+[2026-02-07T22:45:57.881+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-02-07T22:45:57.882+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2026-02-07T22:45:59.894+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_teste.py                                1           0  0.26s           2026-02-07T22:45:46
+/opt/airflow/dags/pipeline_clima.py                           1           0  0.26s           2026-02-07T22:45:46
+================================================================================
+[2026-02-07T22:46:33.493+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_teste.py                                1           0  0.27s           2026-02-07T22:46:19
+/opt/airflow/dags/pipeline_clima.py                           1           0  0.27s           2026-02-07T22:46:19
+================================================================================
+[2026-02-07T22:47:06.866+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_teste.py                                1           0  2.22s           2026-02-07T22:46:52
+/opt/airflow/dags/pipeline_clima.py                           1           0  2.21s           2026-02-07T22:46:52
+================================================================================
+[2026-02-07T22:47:40.459+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_teste.py                                1           0  0.28s           2026-02-07T22:47:25
+/opt/airflow/dags/pipeline_clima.py                           1           0  0.27s           2026-02-07T22:47:25
+================================================================================
+[2026-02-07T22:48:13.788+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_teste.py                                1           0  0.45s           2026-02-07T22:47:59
+/opt/airflow/dags/pipeline_clima.py                           1           0  0.44s           2026-02-07T22:47:59
+================================================================================
+[2026-02-07T22:48:47.603+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_teste.py                                1           0  2.24s           2026-02-07T22:48:31
+/opt/airflow/dags/pipeline_clima.py                           1           0  2.24s           2026-02-07T22:48:31
+================================================================================
+[2026-02-07T22:48:55.435+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2026-02-07T22:49:16.613+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2026-02-07T22:49:16.614+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2026-02-07T22:49:16.614+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-02-07T22:49:16.614+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-02-07T22:49:16.616+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2026-02-07T22:49:16.745+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/dag_teste.py         169  0.05s             0           0
+/opt/airflow/dags/pipeline_clima.py    172  0.04s             0           0
+================================================================================
+[2026-02-07T22:49:50.402+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_teste.py                                1           0  0.29s           2026-02-07T22:49:48
+/opt/airflow/dags/pipeline_clima.py                           1           0  0.29s           2026-02-07T22:49:48
+================================================================================
+[2026-02-07T22:50:23.732+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_teste.py                                1           0  0.29s           2026-02-07T22:50:18
+/opt/airflow/dags/pipeline_clima.py                           1           0  0.28s           2026-02-07T22:50:18
+================================================================================
+[2026-02-07T22:50:57.416+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_teste.py                                1           0  0.31s           2026-02-07T22:50:49
+/opt/airflow/dags/pipeline_clima.py                           1           0  0.30s           2026-02-07T22:50:49
+================================================================================
+[2026-02-07T22:51:30.830+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_teste.py                                1           0  0.30s           2026-02-07T22:51:20
+/opt/airflow/dags/pipeline_clima.py                           1           0  0.30s           2026-02-07T22:51:20
+================================================================================
+[2026-02-07T22:52:04.486+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_teste.py                                1           0  0.28s           2026-02-07T22:51:51
+/opt/airflow/dags/pipeline_clima.py                           1           0  0.27s           2026-02-07T22:51:51
+================================================================================
+[2026-02-07T22:52:38.063+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_teste.py                                1           0  0.27s           2026-02-07T22:52:25
+/opt/airflow/dags/pipeline_clima.py                           1           0  0.27s           2026-02-07T22:52:25
+================================================================================
+[2026-02-07T22:53:11.502+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_teste.py                                1           0  0.28s           2026-02-07T22:52:58
+/opt/airflow/dags/pipeline_clima.py                           1           0  0.27s           2026-02-07T22:52:58
+================================================================================
+[2026-02-07T22:53:45.139+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_teste.py                                1           0  2.21s           2026-02-07T22:53:31
+/opt/airflow/dags/pipeline_clima.py                           1           0  2.21s           2026-02-07T22:53:31
+================================================================================
+[2026-02-07T22:54:16.827+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-02-07T22:54:16.829+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2026-02-07T22:54:18.843+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_teste.py                                1           0  0.31s           2026-02-07T22:54:04
+/opt/airflow/dags/pipeline_clima.py                           1           0  0.30s           2026-02-07T22:54:04
+================================================================================
+[2026-02-07T22:54:52.177+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_teste.py                                1           0  0.31s           2026-02-07T22:54:38
+/opt/airflow/dags/pipeline_clima.py                           1           0  0.31s           2026-02-07T22:54:38
+================================================================================
+[2026-02-07T22:55:25.599+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_teste.py                                1           0  0.28s           2026-02-07T22:55:11
+/opt/airflow/dags/pipeline_clima.py                           1           0  0.28s           2026-02-07T22:55:11
+================================================================================
+[2026-02-07T22:55:59.264+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_teste.py                                1           0  2.26s           2026-02-07T22:55:44
+/opt/airflow/dags/pipeline_clima.py                           1           0  2.26s           2026-02-07T22:55:44
+================================================================================
+[2026-02-07T22:56:32.956+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_teste.py                                1           0  2.27s           2026-02-07T22:56:17
+/opt/airflow/dags/pipeline_clima.py                           1           0  2.26s           2026-02-07T22:56:17
+================================================================================
+[2026-02-07T22:57:06.299+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_teste.py                                1           0  0.29s           2026-02-07T22:56:51
+/opt/airflow/dags/pipeline_clima.py                           1           0  0.29s           2026-02-07T22:56:51
+================================================================================

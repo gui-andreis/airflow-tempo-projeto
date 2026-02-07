@@ -1,0 +1,20 @@
+CREATE TABLE previsao_tempo (
+name TEXT NOT NULL,
+datetime TIMESTAMP NOT NULL,
+
+tempmax DOUBLE PRECISION,
+tempmin DOUBLE PRECISION,
+temp DOUBLE PRECISION,
+feelslike DOUBLE PRECISION,
+precip DOUBLE PRECISION,
+humidity DOUBLE PRECISION,
+windspeed DOUBLE PRECISION,
+
+avg_temp DOUBLE PRECISION,
+temp_range DOUBLE PRECISION,
+day_of_week TEXT,
+
+collected_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+
+CONSTRAINT pk_previsao_tempo PRIMARY KEY (name, datetime)
+);
