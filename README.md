@@ -18,15 +18,15 @@ This project was fully containerized using Docker Compose, ensuring portability 
 - Power BI
 - Visual Crossing API
 
-🎯 Main Features
+## 🎯 Main Features
 
-✅ Automated daily forecast ingestion using Airflow DAG scheduling
-✅ Extraction of weather forecast data via Visual Crossing API
-✅ Data transformation and enrichment using Pandas
-✅ Generation of raw and processed CSV backups
-✅ Load into PostgreSQL with automatic table creation
-✅ UPSERT implementation to prevent duplicate data and allow updates
-✅ Power BI dashboard connected to PostgreSQL for visualization
+- ✅ Automated daily forecast ingestion using **Airflow DAG scheduling**
+- ✅ Extraction of weather forecast data via **Visual Crossing API**
+- ✅ Data transformation and enrichment using **Pandas**
+- ✅ Generation of **raw and processed CSV backups**
+- ✅ Load into **PostgreSQL** with automatic table creation
+- ✅ **UPSERT** implementation to prevent duplicate data and allow updates
+- ✅ **Power BI dashboard** connected to PostgreSQL for visualization
 
 🏗️ Pipeline Architecture
 
