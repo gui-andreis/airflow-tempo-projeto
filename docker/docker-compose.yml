@@ -25,7 +25,7 @@ services:
     volumes:
       - ../airflow/dags:/opt/airflow/dags
       - ../airflow/logs:/opt/airflow/logs
-      # - ../airflow/plugins:/opt/airflow/plugins
+      # - ../airflow/plugins:/opt/airflow/plugins    talvez seja necessário para o futuro, mas por enquanto não gera nada
       - ../data:/opt/airflow/data
       - ../src:/opt/airflow/src
       - ../.env:/opt/airflow/.env
@@ -43,7 +43,7 @@ services:
     volumes:
       - ../airflow/dags:/opt/airflow/dags
       - ../airflow/logs:/opt/airflow/logs
-      # - ../airflow/plugins:/opt/airflow/plugins
+      # - ../airflow/plugins:/opt/airflow/plugins    talvez seja necessário para o futuro, mas por enquanto não gera nada
       - ../data:/opt/airflow/data
       - ../src:/opt/airflow/src
       - ../.env:/opt/airflow/.env

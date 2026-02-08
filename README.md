@@ -1,158 +1,182 @@
-Projeto Previsão do Tempo com Airflow e Postgres
-Descrição
+🌦️ Weather Forecast Data Pipeline (Airflow + PostgreSQL + Power BI)
+📌 Project Overview
 
-Este projeto extrai dados meteorológicos de uma API, processa os dados e salva em um banco Postgres. O fluxo de dados é orquestrado pelo Apache Airflow, usando DAGs e tasks decoradas. O objetivo é manter uma base de dados atualizada para análises futuras, como visualizações no Power BI.
+This project is an end-to-end Weather Forecast Data Pipeline built with Apache Airflow, designed to extract, transform, and load (ETL) weather forecast data into a PostgreSQL database, making it ready for analytics and visualization.
 
-Tecnologias
+The pipeline fetches forecast data from the Visual Crossing Weather API, processes and cleans the dataset using Pandas, loads it into PostgreSQL with UPSERT logic to prevent duplicate records, and finally connects the database to a Power BI dashboard for interactive reporting.
 
-Python 3.10
+This project was fully containerized using Docker Compose, ensuring portability and easy deployment.
+
+🚀 Tech Stack
+
+Python
 Apache Airflow
-PostgreSQL 13
-Docker & Docker Compose
+PostgreSQL
 Pandas
 psycopg2
-DBeaver (opcional, para visualização do banco)
+Docker / Docker Compose
 Power BI
-Visual Crossing Weather API (fonte de dados meteorológicos)
+Visual Crossing API
 
-Estrutura do Projeto
-airflow-tempo-projeto/
-├─ docker/                  # Configuração do Docker
-│  └─ docker-compose.yml
-├─ airflow/                  # Dados do Airflow
-│  ├─ dags/                  # DAGs do Airflow
-│  │  └─ pipeline_clima.py
-│  ├─ logs/
-│  └─ plugins/
-├─ src/                      # Código Python da pipeline
-│  └─ pipeline_teste.py
-├─ data/                     # CSVs brutos e processados
-│  ├─ raw/
-│  └─ processed/
-├─ sql/                      # Scripts SQL
-│  └─ create_tables.sql
-├─ .env                      # Variáveis de ambiente (API key, DB)
-└─ README.md
+🎯 Main Features
 
-Configuração do Docker
+✅ Automated daily forecast ingestion using Airflow DAG scheduling
+✅ Extraction of weather forecast data via Visual Crossing API
+✅ Data transformation and enrichment using Pandas
+✅ Generation of raw and processed CSV backups
+✅ Load into PostgreSQL with automatic table creation
+✅ UPSERT implementation to prevent duplicate data and allow updates
+✅ Power BI dashboard connected to PostgreSQL for visualization
 
-No docker-compose.yml, temos os serviços:
+🏗️ Pipeline Architecture
 
-postgres: banco de dados Postgres
+The ETL process is implemented in a Python module called:
 
-airflow-webserver: interface web do Airflow
+📌 pipeline_tempo.py (or Pipeline Tempo)
 
-airflow-scheduler: executa as DAGs
+It contains three main functions:
 
-airflow-init: inicializa o banco do Airflow e cria usuário admin
+1) extrair_dados(cidade, dias)
 
-Portas mapeadas:
+Builds the API URL using the selected city and forecast range.
+Fetches data directly from Visual Crossing.
+Loads the API response into a Pandas DataFrame.
+Saves the raw dataset into a CSV file for backup and debugging.
 
-8080 → Airflow Web
-
-5432 → Postgres
-
-Variáveis de Ambiente (.env)
-VISUAL_CROSSING_KEY=your_api_key
-DB_HOST=localhost
-DB_NAME=clima_db
-DB_USER=postgres
-DB_PASSWORD=admin
-DB_PORT=5432
-
-Criação do Banco de Dados
-
-Acesse o container Postgres:
-
-docker compose exec postgres bash
+Output: Raw DataFrame
 
 
-Entre no psql:
+2) processar_dados(df)
 
-psql -U airflow
+Receives the raw DataFrame.
+Creates new derived columns.
+Filters only relevant columns for analytics.
+Saves the cleaned dataset into another CSV file.
+
+Output: Processed DataFrame
 
 
-Crie o banco de dados:
+3) carregar_postgre(df, tabela="previsao_tempo")
 
-CREATE DATABASE clima_db;
+Connects to PostgreSQL using psycopg2.
+Creates the table if it does not exist.
+Inserts the records into PostgreSQL.
+Uses UPSERT logic (INSERT ... ON CONFLICT DO UPDATE) to prevent duplicates.
+
+Output: None (writes data into PostgreSQL)
+
+⏳ Airflow DAG Orchestration
+
+The ETL process is orchestrated using an Apache Airflow DAG.
+The DAG imports the functions from the pipeline module and executes them as tasks in the correct order:
+
+Extract Task → calls extrair_dados()
+Transform Task → calls processar_dados()
+Load Task → calls carregar_postgre()
+
+The DAG is scheduled to run daily.
+
+📌 DAG Name: pipeline_clima
+📌 Schedule: @daily
+
+🐳 Dockerized Environment
+
+The entire Airflow environment runs inside Docker containers using Docker Compose.
+
+The project includes:
+docker-compose.yml for orchestrating Airflow + PostgreSQL
+Dockerfile for installing Python dependencies (requirements.txt)
+
+Mounted volumes for:
+
+DAGs
+Logs
+Scripts / pipeline code
+Generated CSV backups
+This ensures the project can be executed consistently on any machine.
+
+## 📂 Project Structure
+
+```bash
+airflow-tempo-projeto
+│
+├── PowerBIImages
+│   ├── page1_powerbiweekforecast.png
+│   └── page2_powerbiweekforecast.png
+├── airflow
+│   ├── dags
+│   │   └── pipeline_clima.py
+│   └── logs    
+├── data
+│   ├── processed
+│   │   └── previsao_tempo_limpo.csv
+│   └── raw
+│       └── previsao_tempo.csv
+├── docker
+│   ├── Dockerfile
+│   ├── docker-compose.yml
+│   └── requirements.txt
+├── sql
+│   └── create_tables.sql
+├── src
+│   └── pipeline_tempo.py
+└── README.md
 
 
-Saia com \q.
+## 🗄️ Table Schema (PostgreSQL)
 
-Obs.: usuário e senha para conexão externa com DBeaver: postgres / admin.
+The pipeline loads data into the following table:
 
-Tabela do Banco de Dados
-CREATE TABLE IF NOT EXISTS previsao_tempo (
+📌 **Table name:** `previsao_tempo`
+
+```sql
+CREATE TABLE previsao_tempo (
     name TEXT NOT NULL,
     datetime TIMESTAMP NOT NULL,
+
     tempmax DOUBLE PRECISION,
     tempmin DOUBLE PRECISION,
     temp DOUBLE PRECISION,
     feelslike DOUBLE PRECISION,
     precip DOUBLE PRECISION,
-    humidity INTEGER,
+    humidity DOUBLE PRECISION,
     windspeed DOUBLE PRECISION,
+
     avg_temp DOUBLE PRECISION,
     temp_range DOUBLE PRECISION,
     day_of_week TEXT,
+
     collected_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    PRIMARY KEY (name, datetime)
+
+    CONSTRAINT pk_previsao_tempo PRIMARY KEY (name, datetime)
 );
 
-Pipeline Python (pipeline_teste.py)
 
-Funções principais:
+📊 Power BI Dashboard
 
-extrair_dados(cidade, dias=7): busca dados da API Visual Crossing e retorna DataFrame.
+After the ETL process loads the data into PostgreSQL, the database is connected to Power BI for visualization.
 
-processar_dados(df): calcula colunas derivadas (avg_temp, temp_range, day_of_week).
+The Power BI report includes two main pages:
 
-carregar_postgres(df): envia os dados processados para a tabela do Postgres usando UPSERT (ON CONFLICT).
+📌 1) Tomorrow’s Weather Forecast
 
-DAG Airflow (pipeline_clima.py)
+This page focuses on:
 
-extrair(): extrai dados da API e salva CSV bruto.
+Tomorrow’s forecast highlights
+    Average Temperature
+    Humidity
+    Wind speed
 
-processar(df_raw): processa CSV e salva CSV processado.
+It also includes a chart about the Temperature Forecast for Next Week
 
-carregar(df_limpo): insere ou atualiza dados no Postgres.
+📌 2) Weather Overview
 
-Schedule: @daily
+This page provides:
 
-Start date: 2026-02-07
+Full week forecast analysis
+    Humidity
+    Precipitation
+    Temperature forecast for the next week(including Max temp, Avg Temp, Min temp.)
 
-max_active_runs=1 → evita acumular runs pendentes
+⚠️ The dashboard updates when Power BI refresh is triggered, pulling the latest data directly from PostgreSQL.
 
-Execução
-
-Levante o Docker Compose:
-
-docker compose up -d
-
-
-Teste a DAG no Airflow UI:
-
-http://localhost:8080
-
-
-Trigger manual:
-
-No Airflow UI → DAGs → pipeline_clima → Trigger DAG
-
-Dicas
-
-Para visualizar dados no DBeaver, use conexão:
-
-Host: localhost
-
-Port: 5432
-
-Database: clima_db
-
-User: postgres
-
-Password: admin
-
-CSVs brutos e processados ficam em data/raw e data/processed.
-
-Sempre rode a DAG com catchup=False para não processar datas passadas.

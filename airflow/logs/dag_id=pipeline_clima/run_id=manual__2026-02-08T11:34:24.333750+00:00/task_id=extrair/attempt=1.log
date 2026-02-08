@@ -1,0 +1,25 @@
+[2026-02-08T11:34:25.506+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pipeline_clima.extrair manual__2026-02-08T11:34:24.333750+00:00 [queued]>
+[2026-02-08T11:34:25.512+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pipeline_clima.extrair manual__2026-02-08T11:34:24.333750+00:00 [queued]>
+[2026-02-08T11:34:25.513+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2026-02-08T11:34:25.523+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): extrair> on 2026-02-08 11:34:24.333750+00:00
+[2026-02-08T11:34:25.530+0000] {standard_task_runner.py:60} INFO - Started process 289 to run task
+[2026-02-08T11:34:25.533+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'pipeline_clima', 'extrair', 'manual__2026-02-08T11:34:24.333750+00:00', '--job-id', '2177', '--raw', '--subdir', 'DAGS_FOLDER/pipeline_clima.py', '--cfg-path', '/tmp/tmpkmx_0ypp']
+[2026-02-08T11:34:25.536+0000] {standard_task_runner.py:88} INFO - Job 2177: Subtask extrair
+[2026-02-08T11:34:25.590+0000] {task_command.py:423} INFO - Running <TaskInstance: pipeline_clima.extrair manual__2026-02-08T11:34:24.333750+00:00 [running]> on host 9bc489ced1ee
+[2026-02-08T11:34:25.662+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='guiandreis' AIRFLOW_CTX_DAG_ID='pipeline_clima' AIRFLOW_CTX_TASK_ID='extrair' AIRFLOW_CTX_EXECUTION_DATE='2026-02-08T11:34:24.333750+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-02-08T11:34:24.333750+00:00'
+[2026-02-08T11:34:25.664+0000] {logging_mixin.py:188} INFO - 📥 Extraindo dados da API...
+[2026-02-08T11:34:26.462+0000] {logging_mixin.py:188} INFO - ✅ Dados brutos salvos em /opt/***/data/raw/previsao_tempo.csv
+[2026-02-08T11:34:26.462+0000] {python.py:201} INFO - Done. Returned value was:             name    datetime  ...               icon  stations
+0  Caxias do Sul  2026-02-08  ...               rain    remote
+1  Caxias do Sul  2026-02-09  ...               rain       NaN
+2  Caxias do Sul  2026-02-10  ...  partly-cloudy-day       NaN
+3  Caxias do Sul  2026-02-11  ...  partly-cloudy-day       NaN
+4  Caxias do Sul  2026-02-12  ...  partly-cloudy-day       NaN
+5  Caxias do Sul  2026-02-13  ...               rain       NaN
+6  Caxias do Sul  2026-02-14  ...               rain       NaN
+7  Caxias do Sul  2026-02-15  ...               rain       NaN
+
+[8 rows x 33 columns]
+[2026-02-08T11:34:26.675+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=pipeline_clima, task_id=extrair, execution_date=20260208T113424, start_date=20260208T113425, end_date=20260208T113426
+[2026-02-08T11:34:26.712+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-02-08T11:34:26.736+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check
