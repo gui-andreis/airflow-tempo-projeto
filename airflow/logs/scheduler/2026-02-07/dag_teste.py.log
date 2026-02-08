@@ -1540,3 +1540,836 @@
 [2026-02-07T22:56:51.477+0000] {logging_mixin.py:188} INFO - [2026-02-07T22:56:51.477+0000] {dag.py:3036} INFO - Sync 1 DAGs
 [2026-02-07T22:56:51.496+0000] {logging_mixin.py:188} INFO - [2026-02-07T22:56:51.495+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
 [2026-02-07T22:56:51.511+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.265 seconds
+[2026-02-07T22:57:24.699+0000] {processor.py:161} INFO - Started process (PID=349) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T22:57:24.700+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T22:57:24.701+0000] {logging_mixin.py:188} INFO - [2026-02-07T22:57:24.701+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T22:57:24.899+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T22:57:24.922+0000] {logging_mixin.py:188} INFO - [2026-02-07T22:57:24.922+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T22:57:24.939+0000] {logging_mixin.py:188} INFO - [2026-02-07T22:57:24.939+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T22:57:24.953+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.262 seconds
+[2026-02-07T22:57:58.337+0000] {processor.py:161} INFO - Started process (PID=361) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T22:57:58.339+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T22:57:58.339+0000] {logging_mixin.py:188} INFO - [2026-02-07T22:57:58.339+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T22:57:58.555+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T22:57:58.577+0000] {logging_mixin.py:188} INFO - [2026-02-07T22:57:58.577+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T22:57:58.593+0000] {logging_mixin.py:188} INFO - [2026-02-07T22:57:58.593+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T22:57:58.606+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.272 seconds
+[2026-02-07T22:58:28.782+0000] {processor.py:161} INFO - Started process (PID=373) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T22:58:28.783+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T22:58:28.784+0000] {logging_mixin.py:188} INFO - [2026-02-07T22:58:28.783+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T22:58:30.933+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T22:58:30.957+0000] {logging_mixin.py:188} INFO - [2026-02-07T22:58:30.957+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T22:58:30.974+0000] {logging_mixin.py:188} INFO - [2026-02-07T22:58:30.974+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T22:58:30.986+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.249 seconds
+[2026-02-07T22:59:04.342+0000] {processor.py:161} INFO - Started process (PID=385) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T22:59:04.344+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T22:59:04.344+0000] {logging_mixin.py:188} INFO - [2026-02-07T22:59:04.344+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T22:59:04.541+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T22:59:04.563+0000] {logging_mixin.py:188} INFO - [2026-02-07T22:59:04.563+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T22:59:04.578+0000] {logging_mixin.py:188} INFO - [2026-02-07T22:59:04.578+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T22:59:04.591+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.252 seconds
+[2026-02-07T22:59:37.786+0000] {processor.py:161} INFO - Started process (PID=397) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T22:59:37.787+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T22:59:37.787+0000] {logging_mixin.py:188} INFO - [2026-02-07T22:59:37.787+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T22:59:37.995+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T22:59:38.022+0000] {logging_mixin.py:188} INFO - [2026-02-07T22:59:38.022+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T22:59:38.043+0000] {logging_mixin.py:188} INFO - [2026-02-07T22:59:38.043+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T22:59:38.057+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.274 seconds
+[2026-02-07T23:00:11.423+0000] {processor.py:161} INFO - Started process (PID=409) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:00:11.425+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:00:11.425+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:00:11.425+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:00:11.618+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:00:11.641+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:00:11.641+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:00:11.658+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:00:11.658+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:00:11.671+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.251 seconds
+[2026-02-07T23:00:41.883+0000] {processor.py:161} INFO - Started process (PID=421) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:00:41.884+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:00:41.885+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:00:41.885+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:00:44.159+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:00:44.186+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:00:44.186+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:00:44.206+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:00:44.205+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:00:44.220+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.379 seconds
+[2026-02-07T23:01:17.411+0000] {processor.py:161} INFO - Started process (PID=433) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:01:17.413+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:01:17.413+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:01:17.413+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:01:17.598+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:01:17.620+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:01:17.620+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:01:17.636+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:01:17.636+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:01:17.649+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.241 seconds
+[2026-02-07T23:01:50.997+0000] {processor.py:161} INFO - Started process (PID=445) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:01:50.998+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:01:50.999+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:01:50.998+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:01:51.188+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:01:51.211+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:01:51.210+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:01:51.227+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:01:51.227+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:01:51.241+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.247 seconds
+[2026-02-07T23:02:24.484+0000] {processor.py:161} INFO - Started process (PID=457) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:02:24.486+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:02:24.487+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:02:24.486+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:02:24.686+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:02:24.706+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:02:24.706+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:02:24.723+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:02:24.722+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:02:24.736+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.256 seconds
+[2026-02-07T23:02:55.084+0000] {processor.py:161} INFO - Started process (PID=469) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:02:55.086+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:02:55.086+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:02:55.086+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:02:57.257+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:02:57.280+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:02:57.280+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:02:57.296+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:02:57.296+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:02:57.308+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.262 seconds
+[2026-02-07T23:03:30.474+0000] {processor.py:161} INFO - Started process (PID=481) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:03:30.475+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:03:30.476+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:03:30.475+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:03:30.674+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:03:30.695+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:03:30.695+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:03:30.711+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:03:30.710+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:03:30.724+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.253 seconds
+[2026-02-07T23:04:04.065+0000] {processor.py:161} INFO - Started process (PID=493) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:04:04.066+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:04:04.067+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:04:04.067+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:04:04.351+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:04:04.379+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:04:04.379+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:04:04.396+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:04:04.396+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:04:04.408+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.346 seconds
+[2026-02-07T23:04:37.536+0000] {processor.py:161} INFO - Started process (PID=505) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:04:37.537+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:04:37.538+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:04:37.538+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:04:37.736+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:04:37.759+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:04:37.759+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:04:37.774+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:04:37.774+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:04:37.787+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.254 seconds
+[2026-02-07T23:05:08.242+0000] {processor.py:161} INFO - Started process (PID=517) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:05:08.244+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:05:08.244+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:05:08.244+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:05:10.409+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:05:10.433+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:05:10.433+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:05:10.449+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:05:10.449+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:05:10.463+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.257 seconds
+[2026-02-07T23:05:43.555+0000] {processor.py:161} INFO - Started process (PID=529) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:05:43.557+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:05:43.557+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:05:43.557+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:05:43.752+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:05:43.776+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:05:43.775+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:05:43.792+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:05:43.792+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:05:43.807+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.255 seconds
+[2026-02-07T23:06:17.242+0000] {processor.py:161} INFO - Started process (PID=541) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:06:17.243+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:06:17.244+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:06:17.244+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:06:17.460+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:06:17.484+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:06:17.483+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:06:17.502+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:06:17.501+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:06:17.515+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.276 seconds
+[2026-02-07T23:06:50.944+0000] {processor.py:161} INFO - Started process (PID=553) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:06:50.945+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:06:50.946+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:06:50.946+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:06:51.143+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:06:51.165+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:06:51.165+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:06:51.182+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:06:51.182+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:06:51.195+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.254 seconds
+[2026-02-07T23:07:21.382+0000] {processor.py:161} INFO - Started process (PID=565) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:07:21.384+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:07:21.385+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:07:21.384+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:07:23.564+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:07:23.590+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:07:23.589+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:07:23.611+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:07:23.610+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:07:23.629+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.281 seconds
+[2026-02-07T23:07:56.988+0000] {processor.py:161} INFO - Started process (PID=577) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:07:56.990+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:07:56.990+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:07:56.990+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:07:57.206+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:07:57.230+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:07:57.230+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:07:57.247+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:07:57.247+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:07:57.260+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.275 seconds
+[2026-02-07T23:08:30.429+0000] {processor.py:161} INFO - Started process (PID=589) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:08:30.430+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:08:30.430+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:08:30.430+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:08:30.629+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:08:30.652+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:08:30.652+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:08:30.671+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:08:30.671+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:08:30.684+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.259 seconds
+[2026-02-07T23:09:04.100+0000] {processor.py:161} INFO - Started process (PID=601) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:09:04.101+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:09:04.102+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:09:04.102+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:09:04.428+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:09:04.456+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:09:04.456+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:09:04.472+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:09:04.472+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:09:04.487+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.390 seconds
+[2026-02-07T23:09:36.906+0000] {processor.py:161} INFO - Started process (PID=613) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:09:36.907+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:09:36.908+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:09:36.908+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:09:37.107+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:09:37.130+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:09:37.130+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:09:37.146+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:09:37.146+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:09:37.159+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.256 seconds
+[2026-02-07T23:10:10.513+0000] {processor.py:161} INFO - Started process (PID=625) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:10:10.515+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:10:10.515+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:10:10.515+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:10:10.700+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:10:10.723+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:10:10.723+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:10:10.739+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:10:10.739+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:10:10.751+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.241 seconds
+[2026-02-07T23:10:41.240+0000] {processor.py:161} INFO - Started process (PID=637) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:10:41.241+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:10:41.242+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:10:41.241+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:10:43.391+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:10:43.414+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:10:43.414+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:10:43.430+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:10:43.430+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:10:43.443+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.243 seconds
+[2026-02-07T23:11:16.609+0000] {processor.py:161} INFO - Started process (PID=649) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:11:16.610+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:11:16.611+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:11:16.611+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:11:16.795+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:11:16.819+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:11:16.818+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:11:16.835+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:11:16.835+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:11:16.848+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.242 seconds
+[2026-02-07T23:11:50.245+0000] {processor.py:161} INFO - Started process (PID=661) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:11:50.246+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:11:50.247+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:11:50.247+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:11:50.432+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:11:50.453+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:11:50.453+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:11:50.471+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:11:50.470+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:11:50.485+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.243 seconds
+[2026-02-07T23:12:23.847+0000] {processor.py:161} INFO - Started process (PID=673) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:12:23.848+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:12:23.849+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:12:23.849+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:12:24.057+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:12:24.078+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:12:24.078+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:12:24.094+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:12:24.094+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:12:24.105+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.262 seconds
+[2026-02-07T23:12:54.277+0000] {processor.py:161} INFO - Started process (PID=685) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:12:54.279+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:12:54.279+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:12:54.279+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:12:56.468+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:12:56.490+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:12:56.490+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:12:56.507+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:12:56.506+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:12:56.520+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.265 seconds
+[2026-02-07T23:13:29.931+0000] {processor.py:161} INFO - Started process (PID=697) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:13:29.934+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:13:29.935+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:13:29.935+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:13:30.297+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:13:30.330+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:13:30.330+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:13:30.348+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:13:30.348+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:13:30.362+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.435 seconds
+[2026-02-07T23:14:03.329+0000] {processor.py:161} INFO - Started process (PID=709) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:14:03.330+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:14:03.331+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:14:03.330+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:14:03.516+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:14:03.542+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:14:03.541+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:14:03.558+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:14:03.557+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:14:03.570+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.244 seconds
+[2026-02-07T23:14:36.941+0000] {processor.py:161} INFO - Started process (PID=721) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:14:36.943+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:14:36.944+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:14:36.943+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:14:37.139+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:14:37.162+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:14:37.161+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:14:37.178+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:14:37.178+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:14:37.192+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.254 seconds
+[2026-02-07T23:15:07.644+0000] {processor.py:161} INFO - Started process (PID=733) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:15:07.645+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:15:07.646+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:15:07.645+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:15:07.946+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:15:07.974+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:15:07.973+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:15:07.990+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:15:07.990+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:15:08.005+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.365 seconds
+[2026-02-07T23:15:38.364+0000] {processor.py:161} INFO - Started process (PID=745) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:15:38.366+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:15:38.366+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:15:38.366+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:15:38.554+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:15:38.576+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:15:38.576+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:15:38.594+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:15:38.594+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:15:38.617+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.255 seconds
+[2026-02-07T23:16:09.035+0000] {processor.py:161} INFO - Started process (PID=757) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:16:09.035+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:16:09.036+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:16:09.036+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:16:09.222+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:16:09.247+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:16:09.246+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:16:09.264+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:16:09.264+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:16:09.277+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.246 seconds
+[2026-02-07T23:16:39.707+0000] {processor.py:161} INFO - Started process (PID=769) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:16:39.708+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:16:39.709+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:16:39.709+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:16:39.904+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:16:39.927+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:16:39.926+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:16:39.943+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:16:39.943+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:16:39.956+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.253 seconds
+[2026-02-07T23:17:10.664+0000] {processor.py:161} INFO - Started process (PID=781) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:17:10.664+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:17:10.665+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:17:10.665+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:17:10.868+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:17:10.894+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:17:10.894+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:17:10.910+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:17:10.909+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:17:10.922+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.261 seconds
+[2026-02-07T23:17:41.642+0000] {processor.py:161} INFO - Started process (PID=793) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:17:41.643+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:17:41.644+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:17:41.644+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:17:41.852+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:17:41.877+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:17:41.876+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:17:41.894+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:17:41.894+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:17:41.929+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.291 seconds
+[2026-02-07T23:18:12.011+0000] {processor.py:161} INFO - Started process (PID=805) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:18:12.012+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:18:12.012+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:18:12.012+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:18:12.322+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:18:12.350+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:18:12.350+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:18:12.366+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:18:12.366+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:18:12.380+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.372 seconds
+[2026-02-07T23:18:42.634+0000] {processor.py:161} INFO - Started process (PID=817) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:18:42.635+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:18:42.636+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:18:42.636+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:18:42.830+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:18:42.854+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:18:42.854+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:18:42.874+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:18:42.874+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:18:42.890+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.259 seconds
+[2026-02-07T23:19:13.121+0000] {processor.py:161} INFO - Started process (PID=829) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:19:13.122+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:19:13.123+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:19:13.123+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:19:13.409+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:19:13.438+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:19:13.437+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:19:13.455+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:19:13.455+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:19:13.468+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.351 seconds
+[2026-02-07T23:19:43.661+0000] {processor.py:161} INFO - Started process (PID=841) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:19:43.663+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:19:43.663+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:19:43.663+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:19:43.882+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:19:43.905+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:19:43.904+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:19:43.921+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:19:43.921+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:19:43.933+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.276 seconds
+[2026-02-07T23:20:14.328+0000] {processor.py:161} INFO - Started process (PID=853) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:20:14.329+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:20:14.330+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:20:14.330+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:20:14.553+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:20:14.581+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:20:14.580+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:20:14.600+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:20:14.600+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:20:14.613+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.290 seconds
+[2026-02-07T23:20:44.966+0000] {processor.py:161} INFO - Started process (PID=865) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:20:44.968+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:20:44.968+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:20:44.968+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:20:45.182+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:20:45.206+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:20:45.206+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:20:45.224+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:20:45.224+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:20:45.238+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.275 seconds
+[2026-02-07T23:21:15.671+0000] {processor.py:161} INFO - Started process (PID=877) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:21:15.672+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:21:15.673+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:21:15.672+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:21:15.978+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:21:16.005+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:21:16.005+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:21:16.021+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:21:16.021+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:21:16.035+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.367 seconds
+[2026-02-07T23:21:49.025+0000] {processor.py:161} INFO - Started process (PID=889) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:21:49.026+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:21:49.027+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:21:49.027+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:21:49.248+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:21:49.274+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:21:49.273+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:21:49.292+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:21:49.291+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:21:49.305+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.283 seconds
+[2026-02-07T23:22:22.414+0000] {processor.py:161} INFO - Started process (PID=901) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:22:22.415+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:22:22.416+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:22:22.415+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:22:22.610+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:22:22.635+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:22:22.635+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:22:22.653+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:22:22.653+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:22:22.666+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.255 seconds
+[2026-02-07T23:22:55.670+0000] {processor.py:161} INFO - Started process (PID=913) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:22:55.671+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:22:55.672+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:22:55.671+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:22:55.864+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:22:55.888+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:22:55.888+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:22:55.905+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:22:55.905+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:22:55.919+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.253 seconds
+[2026-02-07T23:23:29.133+0000] {processor.py:161} INFO - Started process (PID=925) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:23:29.134+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:23:29.134+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:23:29.134+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:23:29.344+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:23:29.367+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:23:29.367+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:23:29.383+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:23:29.383+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:23:29.397+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.267 seconds
+[2026-02-07T23:24:01.141+0000] {processor.py:161} INFO - Started process (PID=937) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:24:01.143+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:24:01.143+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:24:01.143+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:24:01.354+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:24:01.381+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:24:01.380+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:24:01.400+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:24:01.400+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:24:01.414+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.276 seconds
+[2026-02-07T23:24:33.006+0000] {processor.py:161} INFO - Started process (PID=949) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:24:33.006+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:24:33.007+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:24:33.007+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:24:33.211+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:24:33.237+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:24:33.237+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:24:33.254+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:24:33.254+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:24:33.268+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.266 seconds
+[2026-02-07T23:25:05.131+0000] {processor.py:161} INFO - Started process (PID=961) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:25:05.133+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:25:05.134+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:25:05.133+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:25:05.338+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:25:05.363+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:25:05.363+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:25:05.383+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:25:05.382+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:25:05.396+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.269 seconds
+[2026-02-07T23:25:37.160+0000] {processor.py:161} INFO - Started process (PID=973) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:25:37.161+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:25:37.162+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:25:37.161+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:25:37.369+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:25:37.397+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:25:37.397+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:25:37.418+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:25:37.417+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:25:37.432+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.275 seconds
+[2026-02-07T23:26:07.819+0000] {processor.py:161} INFO - Started process (PID=985) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:26:07.821+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:26:07.821+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:26:07.821+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:26:08.026+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:26:08.052+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:26:08.051+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:26:08.069+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:26:08.069+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:26:08.083+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.268 seconds
+[2026-02-07T23:26:39.372+0000] {processor.py:161} INFO - Started process (PID=997) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:26:39.372+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:26:39.373+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:26:39.373+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:26:39.576+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:26:39.602+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:26:39.602+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:26:39.619+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:26:39.619+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:26:39.633+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.264 seconds
+[2026-02-07T23:27:11.298+0000] {processor.py:161} INFO - Started process (PID=1009) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:27:11.299+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:27:11.300+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:27:11.300+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:27:11.500+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:27:11.525+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:27:11.524+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:27:11.544+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:27:11.543+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:27:11.560+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.265 seconds
+[2026-02-07T23:27:42.215+0000] {processor.py:161} INFO - Started process (PID=1021) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:27:42.216+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:27:42.216+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:27:42.216+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:27:42.429+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:27:42.456+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:27:42.455+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:27:42.475+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:27:42.475+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:27:42.490+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.278 seconds
+[2026-02-07T23:28:13.763+0000] {processor.py:161} INFO - Started process (PID=1033) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:28:13.765+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:28:13.765+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:28:13.765+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:28:13.996+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:28:14.024+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:28:14.023+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:28:14.043+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:28:14.042+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:28:14.057+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.297 seconds
+[2026-02-07T23:28:45.520+0000] {processor.py:161} INFO - Started process (PID=1045) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:28:45.521+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:28:45.522+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:28:45.522+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:28:45.729+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:28:45.754+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:28:45.754+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:28:45.774+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:28:45.773+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:28:45.788+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.271 seconds
+[2026-02-07T23:29:16.153+0000] {processor.py:161} INFO - Started process (PID=1057) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:29:16.154+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:29:16.155+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:29:16.155+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:29:16.357+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:29:16.380+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:29:16.379+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:29:16.396+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:29:16.396+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:29:16.409+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.259 seconds
+[2026-02-07T23:29:47.960+0000] {processor.py:161} INFO - Started process (PID=1069) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:29:47.961+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:29:47.962+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:29:47.962+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:29:48.322+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:29:48.356+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:29:48.356+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:29:48.375+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:29:48.375+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:29:48.390+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.435 seconds
+[2026-02-07T23:30:19.441+0000] {processor.py:161} INFO - Started process (PID=1081) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:30:19.442+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:30:19.442+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:30:19.442+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:30:19.681+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:30:19.705+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:30:19.705+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:30:19.722+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:30:19.721+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:30:19.736+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.299 seconds
+[2026-02-07T23:30:50.968+0000] {processor.py:161} INFO - Started process (PID=1093) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:30:50.969+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:30:50.970+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:30:50.969+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:30:51.180+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:30:51.205+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:30:51.205+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:30:51.225+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:30:51.225+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:30:51.239+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.274 seconds
+[2026-02-07T23:31:21.607+0000] {processor.py:161} INFO - Started process (PID=1105) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:31:21.607+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:31:21.608+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:31:21.608+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:31:21.918+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:31:21.947+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:31:21.946+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:31:21.966+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:31:21.965+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:31:21.979+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.375 seconds
+[2026-02-07T23:31:53.132+0000] {processor.py:161} INFO - Started process (PID=1117) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:31:53.133+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:31:53.134+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:31:53.134+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:31:53.377+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:31:53.404+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:31:53.404+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:31:53.423+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:31:53.423+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:31:53.437+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.309 seconds
+[2026-02-07T23:32:24.941+0000] {processor.py:161} INFO - Started process (PID=1129) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:32:24.942+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:32:24.943+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:32:24.943+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:32:25.171+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:32:25.202+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:32:25.202+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:32:25.225+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:32:25.225+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:32:25.241+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.304 seconds
+[2026-02-07T23:32:56.465+0000] {processor.py:161} INFO - Started process (PID=1141) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:32:56.467+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:32:56.467+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:32:56.467+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:32:56.699+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:32:56.727+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:32:56.727+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:32:56.746+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:32:56.746+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:32:56.763+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.301 seconds
+[2026-02-07T23:33:27.027+0000] {processor.py:161} INFO - Started process (PID=1153) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:33:27.028+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:33:27.029+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:33:27.029+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:33:27.340+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:33:27.369+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:33:27.369+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:33:27.386+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:33:27.385+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:33:27.822+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.799 seconds
+[2026-02-07T23:33:58.110+0000] {processor.py:161} INFO - Started process (PID=1165) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:33:58.112+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:33:58.113+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:33:58.113+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:33:58.332+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:33:58.354+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:33:58.354+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:33:58.373+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:33:58.373+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:33:58.386+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.279 seconds
+[2026-02-07T23:34:29.463+0000] {processor.py:161} INFO - Started process (PID=1177) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:34:29.464+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:34:29.465+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:34:29.465+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:34:29.828+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:34:29.863+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:34:29.862+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:34:29.885+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:34:29.885+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:34:29.902+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.443 seconds
+[2026-02-07T23:35:00.823+0000] {processor.py:161} INFO - Started process (PID=1189) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:35:00.825+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:35:00.826+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:35:00.825+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:35:01.039+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:35:01.064+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:35:01.063+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:35:01.082+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:35:01.082+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:35:01.096+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.277 seconds
+[2026-02-07T23:35:31.253+0000] {processor.py:161} INFO - Started process (PID=1201) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:35:31.254+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:35:31.255+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:35:31.255+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:35:31.462+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:35:31.487+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:35:31.487+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:35:31.504+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:35:31.504+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:35:31.517+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.268 seconds
+[2026-02-07T23:36:02.526+0000] {processor.py:161} INFO - Started process (PID=1213) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:36:02.527+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:36:02.527+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:36:02.527+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:36:02.859+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:36:02.890+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:36:02.889+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:36:02.908+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:36:02.908+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:36:02.925+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.402 seconds
+[2026-02-07T23:36:33.868+0000] {processor.py:161} INFO - Started process (PID=1225) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:36:33.869+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:36:33.869+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:36:33.869+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:36:34.108+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:36:34.133+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:36:34.133+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:36:34.152+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:36:34.151+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:36:34.165+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.304 seconds
+[2026-02-07T23:37:04.260+0000] {processor.py:161} INFO - Started process (PID=1237) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:37:04.260+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:37:04.261+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:37:04.261+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:37:04.557+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:37:04.586+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:37:04.586+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:37:04.603+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:37:04.603+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:37:04.618+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.362 seconds
+[2026-02-07T23:37:35.358+0000] {processor.py:161} INFO - Started process (PID=1249) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:37:35.358+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:37:35.359+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:37:35.359+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:37:35.592+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:37:35.623+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:37:35.623+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:37:35.644+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:37:35.644+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:37:35.660+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.306 seconds
+[2026-02-07T23:38:06.504+0000] {processor.py:161} INFO - Started process (PID=1261) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:38:06.504+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:38:06.505+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:38:06.505+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:38:06.725+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:38:06.753+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:38:06.752+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:38:06.772+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:38:06.772+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:38:06.789+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.289 seconds
+[2026-02-07T23:38:37.617+0000] {processor.py:161} INFO - Started process (PID=1273) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:38:37.618+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:38:37.618+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:38:37.618+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:38:37.861+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:38:37.885+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:38:37.884+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:38:37.905+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:38:37.905+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:38:37.928+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.316 seconds
+[2026-02-07T23:39:08.973+0000] {processor.py:161} INFO - Started process (PID=1285) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:39:08.974+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:39:08.975+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:39:08.975+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:39:09.178+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:39:09.203+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:39:09.203+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:39:09.220+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:39:09.220+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:39:09.234+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.265 seconds
+[2026-02-07T23:39:39.281+0000] {processor.py:161} INFO - Started process (PID=1297) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:39:39.282+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:39:39.283+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:39:39.283+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:39:39.511+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:39:39.539+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:39:39.539+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:39:39.558+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:39:39.558+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:39:39.750+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.474 seconds
+[2026-02-07T23:40:10.401+0000] {processor.py:161} INFO - Started process (PID=1309) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:40:10.403+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:40:10.404+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:40:10.403+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:40:10.626+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:40:10.652+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:40:10.652+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:40:10.671+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:40:10.671+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:40:10.685+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.289 seconds
+[2026-02-07T23:40:41.448+0000] {processor.py:161} INFO - Started process (PID=1321) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:40:41.449+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:40:41.450+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:40:41.450+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:40:41.675+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:40:41.701+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:40:41.700+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:40:41.722+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:40:41.722+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:40:41.737+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.292 seconds
+[2026-02-07T23:41:12.767+0000] {processor.py:161} INFO - Started process (PID=1333) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:41:12.768+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:41:12.769+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:41:12.768+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:41:13.078+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:41:13.108+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:41:13.107+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:41:13.124+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:41:13.124+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:41:13.137+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.373 seconds
+[2026-02-07T23:41:43.199+0000] {processor.py:161} INFO - Started process (PID=1345) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:41:43.200+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:41:43.200+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:41:43.200+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:41:43.420+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:41:43.445+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:41:43.444+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:41:43.465+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:41:43.465+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:41:43.479+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.284 seconds
+[2026-02-07T23:42:14.282+0000] {processor.py:161} INFO - Started process (PID=1357) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:42:14.283+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:42:14.284+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:42:14.284+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:42:14.600+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:42:14.630+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:42:14.630+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:42:14.648+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:42:14.648+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:42:14.833+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.555 seconds
+[2026-02-07T23:42:45.099+0000] {processor.py:161} INFO - Started process (PID=1369) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:42:45.099+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:42:45.100+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:42:45.100+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:42:45.311+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:42:45.338+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:42:45.338+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:42:45.357+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:42:45.357+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:42:45.372+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.277 seconds
+[2026-02-07T23:43:16.092+0000] {processor.py:161} INFO - Started process (PID=1381) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:43:16.093+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:43:16.094+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:43:16.093+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:43:16.419+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:43:16.446+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:43:16.446+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:43:16.463+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:43:16.463+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:43:16.476+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.388 seconds
+[2026-02-07T23:43:47.471+0000] {processor.py:161} INFO - Started process (PID=1393) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:43:47.473+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:43:47.473+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:43:47.473+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:43:47.705+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:43:47.733+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:43:47.733+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:43:47.753+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:43:47.752+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:43:47.768+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.300 seconds
+[2026-02-07T23:44:18.884+0000] {processor.py:161} INFO - Started process (PID=1405) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:44:18.885+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:44:18.886+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:44:18.886+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:44:19.206+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:44:19.236+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:44:19.236+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:44:19.253+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:44:19.253+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:44:19.267+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.387 seconds
+[2026-02-07T23:44:49.382+0000] {processor.py:161} INFO - Started process (PID=1417) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:44:49.383+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:44:49.384+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:44:49.384+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:44:49.604+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:44:49.632+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:44:49.632+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:44:49.651+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:44:49.651+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:44:49.669+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.291 seconds
+[2026-02-07T23:45:20.330+0000] {processor.py:161} INFO - Started process (PID=1429) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:45:20.331+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:45:20.331+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:45:20.331+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:45:20.640+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:45:20.667+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:45:20.667+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:45:20.684+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:45:20.684+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:45:20.865+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.538 seconds
+[2026-02-07T23:45:50.966+0000] {processor.py:161} INFO - Started process (PID=1441) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:45:50.967+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:45:50.968+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:45:50.968+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:45:51.189+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:45:51.216+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:45:51.216+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:45:51.237+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:45:51.237+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:45:51.251+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.288 seconds
+[2026-02-07T23:46:22.057+0000] {processor.py:161} INFO - Started process (PID=1453) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:46:22.058+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:46:22.059+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:46:22.059+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:46:22.423+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:46:22.451+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:46:22.451+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:46:22.469+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:46:22.469+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:46:22.483+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.428 seconds
+[2026-02-07T23:46:53.432+0000] {processor.py:161} INFO - Started process (PID=1465) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:46:53.433+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:46:53.434+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:46:53.434+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:46:53.662+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:46:53.687+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:46:53.687+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:46:53.706+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:46:53.705+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:46:53.720+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.292 seconds
+[2026-02-07T23:47:24.503+0000] {processor.py:161} INFO - Started process (PID=1477) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:47:24.505+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:47:24.506+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:47:24.506+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:47:24.846+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:47:24.875+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:47:24.874+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:47:24.890+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:47:24.890+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:47:24.904+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.405 seconds
+[2026-02-07T23:47:55.315+0000] {processor.py:161} INFO - Started process (PID=1489) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:47:55.315+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:47:55.316+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:47:55.316+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:47:55.549+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:47:55.574+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:47:55.574+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:47:55.593+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:47:55.593+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:47:55.611+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.299 seconds
+[2026-02-07T23:48:26.088+0000] {processor.py:161} INFO - Started process (PID=1501) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:48:26.089+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:48:26.089+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:48:26.089+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:48:26.487+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:48:26.523+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:48:26.523+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:48:26.545+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:48:26.545+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:48:26.754+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.670 seconds
+[2026-02-07T23:48:57.248+0000] {processor.py:161} INFO - Started process (PID=1513) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:48:57.249+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:48:57.250+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:48:57.250+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:48:57.489+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:48:57.515+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:48:57.515+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:48:57.536+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:48:57.536+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:48:57.551+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.308 seconds
+[2026-02-07T23:49:27.682+0000] {processor.py:161} INFO - Started process (PID=1525) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:49:27.683+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:49:27.683+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:49:27.683+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:49:28.006+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:49:28.037+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:49:28.037+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:49:28.056+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:49:28.056+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:49:28.071+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.393 seconds
+[2026-02-07T23:49:58.433+0000] {processor.py:161} INFO - Started process (PID=1537) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:49:58.434+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:49:58.435+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:49:58.435+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:49:58.672+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:49:58.697+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:49:58.696+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:49:58.714+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:49:58.714+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:49:58.729+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.300 seconds
+[2026-02-07T23:50:28.973+0000] {processor.py:161} INFO - Started process (PID=1549) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:50:28.974+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:50:28.974+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:50:28.974+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:50:29.338+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:50:29.369+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:50:29.369+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:50:29.387+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:50:29.387+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:50:29.409+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.439 seconds
+[2026-02-07T23:50:59.653+0000] {processor.py:161} INFO - Started process (PID=1561) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:50:59.654+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:50:59.654+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:50:59.654+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:50:59.905+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:50:59.929+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:50:59.929+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:50:59.950+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:50:59.950+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:51:00.131+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.482 seconds
+[2026-02-07T23:51:30.318+0000] {processor.py:161} INFO - Started process (PID=1573) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:51:30.319+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:51:30.320+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:51:30.320+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:51:30.587+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:51:30.616+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:51:30.615+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:51:30.794+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:51:30.793+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:51:30.807+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.493 seconds
+[2026-02-07T23:52:01.035+0000] {processor.py:161} INFO - Started process (PID=1585) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:52:01.036+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:52:01.037+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:52:01.037+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:52:01.275+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:52:01.301+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:52:01.301+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:52:01.321+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:52:01.321+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:52:01.336+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.305 seconds
+[2026-02-07T23:52:31.711+0000] {processor.py:161} INFO - Started process (PID=1597) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:52:31.712+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:52:31.713+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:52:31.713+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:52:32.065+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:52:32.097+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:52:32.096+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:52:32.115+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:52:32.115+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:52:32.131+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.423 seconds
+[2026-02-07T23:53:02.224+0000] {processor.py:161} INFO - Started process (PID=1609) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:53:02.225+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:53:02.226+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:53:02.226+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:53:02.444+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:53:02.468+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:53:02.467+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:53:02.485+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:53:02.485+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:53:02.498+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.278 seconds
+[2026-02-07T23:53:32.675+0000] {processor.py:161} INFO - Started process (PID=1621) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:53:32.676+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:53:32.677+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:53:32.676+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:53:32.908+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:53:32.933+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:53:32.933+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:53:32.951+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:53:32.950+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:53:32.966+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.295 seconds
+[2026-02-07T23:54:03.417+0000] {processor.py:161} INFO - Started process (PID=1633) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:54:03.418+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:54:03.419+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:54:03.419+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:54:03.634+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:54:03.659+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:54:03.659+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:54:03.677+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:54:03.677+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:54:03.844+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.430 seconds
+[2026-02-07T23:54:34.305+0000] {processor.py:161} INFO - Started process (PID=1645) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:54:34.306+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:54:34.307+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:54:34.307+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:54:34.528+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:54:34.554+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:54:34.554+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:54:34.572+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:54:34.571+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:54:34.585+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.284 seconds
+[2026-02-07T23:55:04.741+0000] {processor.py:161} INFO - Started process (PID=1657) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:55:04.741+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:55:04.742+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:55:04.742+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:55:05.125+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:55:05.158+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:55:05.157+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:55:05.178+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:55:05.178+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:55:05.194+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.456 seconds
+[2026-02-07T23:55:35.452+0000] {processor.py:161} INFO - Started process (PID=1669) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:55:35.453+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:55:35.454+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:55:35.453+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:55:35.662+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:55:35.688+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:55:35.688+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:55:35.705+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:55:35.705+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:55:35.719+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.271 seconds
+[2026-02-07T23:56:06.181+0000] {processor.py:161} INFO - Started process (PID=1681) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:56:06.183+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:56:06.183+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:56:06.183+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:56:06.395+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:56:06.420+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:56:06.420+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:56:06.437+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:56:06.437+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:56:06.451+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.274 seconds
+[2026-02-07T23:56:36.621+0000] {processor.py:161} INFO - Started process (PID=1693) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:56:36.622+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:56:36.622+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:56:36.622+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:56:36.835+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:56:36.860+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:56:36.860+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:56:36.877+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:56:36.877+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:56:37.048+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.430 seconds
+[2026-02-07T23:57:07.237+0000] {processor.py:161} INFO - Started process (PID=1705) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:57:07.237+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:57:07.238+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:57:07.238+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:57:07.456+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:57:07.480+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:57:07.479+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:57:07.652+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:57:07.652+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:57:07.664+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.431 seconds
+[2026-02-07T23:57:37.993+0000] {processor.py:161} INFO - Started process (PID=1717) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:57:37.995+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:57:37.995+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:57:37.995+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:57:38.236+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:57:38.263+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:57:38.263+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:57:38.282+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:57:38.282+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:57:38.296+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.306 seconds
+[2026-02-07T23:58:08.420+0000] {processor.py:161} INFO - Started process (PID=1729) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:58:08.421+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:58:08.421+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:58:08.421+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:58:08.756+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:58:08.784+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:58:08.784+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:58:08.802+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:58:08.801+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:58:08.816+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.399 seconds
+[2026-02-07T23:58:39.105+0000] {processor.py:161} INFO - Started process (PID=1741) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:58:39.106+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:58:39.107+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:58:39.107+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:58:39.328+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:58:39.354+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:58:39.354+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:58:39.373+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:58:39.373+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:58:39.388+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.287 seconds
+[2026-02-07T23:59:09.744+0000] {processor.py:161} INFO - Started process (PID=1753) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:59:09.745+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:59:09.746+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:59:09.746+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:59:09.969+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:59:09.994+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:59:09.994+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:59:10.011+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:59:10.011+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:59:10.026+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.286 seconds
+[2026-02-07T23:59:40.288+0000] {processor.py:161} INFO - Started process (PID=1765) to work on /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:59:40.289+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_teste.py for tasks to queue
+[2026-02-07T23:59:40.290+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:59:40.290+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:59:40.634+0000] {processor.py:840} INFO - DAG(s) 'pipeline_climateste' retrieved from /opt/airflow/dags/dag_teste.py
+[2026-02-07T23:59:40.663+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:59:40.663+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-07T23:59:40.681+0000] {logging_mixin.py:188} INFO - [2026-02-07T23:59:40.681+0000] {dag.py:3823} INFO - Setting next_dagrun for pipeline_climateste to 2026-02-07 00:00:00+00:00, run_after=2026-02-08 00:00:00+00:00
+[2026-02-07T23:59:40.865+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_teste.py took 0.580 seconds
