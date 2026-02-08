@@ -7,16 +7,16 @@ The pipeline fetches forecast data from the Visual Crossing Weather API, process
 
 This project was fully containerized using Docker Compose, ensuring portability and easy deployment.
 
-🚀 Tech Stack
+## 🚀 Tech Stack
 
-Python
-Apache Airflow
-PostgreSQL
-Pandas
-psycopg2
-Docker / Docker Compose
-Power BI
-Visual Crossing API
+- Python
+- Apache Airflow
+- PostgreSQL
+- Pandas
+- psycopg2
+- Docker / Docker Compose
+- Power BI
+- Visual Crossing API
 
 🎯 Main Features
 
