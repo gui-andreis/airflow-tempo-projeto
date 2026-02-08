@@ -2,3 +2,4 @@ pasta_gitignore/.env
 .env
 *.pyc
 __pycache__/
+airflow/logs/
