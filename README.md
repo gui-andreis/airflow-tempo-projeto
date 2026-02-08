@@ -120,7 +120,8 @@ airflow-tempo-projeto
 │   └── create_tables.sql
 ├── src
 │   └── pipeline_tempo.py
-└── README.md
+└── README.md 
+```
 
 
 ## 🗄️ Table Schema (PostgreSQL)
@@ -150,7 +151,7 @@ CREATE TABLE previsao_tempo (
 
     CONSTRAINT pk_previsao_tempo PRIMARY KEY (name, datetime)
 );
-
+```
 
 📊 Power BI Dashboard
 
