@@ -179,5 +179,12 @@ Full week forecast analysis
     Precipitation
     Temperature forecast for the next week(including Max temp, Avg Temp, Min temp.)
 
-⚠️ The dashboard updates when Power BI refresh is triggered, pulling the latest data directly from PostgreSQL.
+ - The dashboard updates when Power BI refresh is triggered, pulling the latest data directly from PostgreSQL.
 
+## 📸 Power BI Dashboard Preview
+
+### Tomorrow’s Weather Forecast
+![Tomorrow Forecast](PowerBIImages/powerBI-airflow-tempo-page1.png)
+
+### Weather Overview
+![Weekly Overview](PowerBIImages/powerBI-airflow-tempo-page2.png)
