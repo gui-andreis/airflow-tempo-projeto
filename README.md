@@ -1,4 +1,4 @@
-##🌦️ Weather Forecast Data Pipeline (Airflow + PostgreSQL + Power BI)
+# 🌦️ Weather Forecast Data Pipeline (Airflow + PostgreSQL + Power BI)
 📌 Project Overview
 
 This project is an end-to-end Weather Forecast Data Pipeline built with Apache Airflow, designed to extract, transform, and load (ETL) weather forecast data into a PostgreSQL database, making it ready for analytics and visualization.
